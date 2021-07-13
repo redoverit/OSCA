@@ -12,7 +12,7 @@ direct = 'C:/Users/mbexknm5/Dropbox/Python_Scripts/'
 
 dataset_out = nc.Dataset(direct + 'sonic_MAQS_201909_mean_winds.nc', 'w', format='NETCDF4_CLASSIC')
 
-dataset_out.Conventions = 'CF-1.6, NCAS-AMF-1.0'
+dataset_out.Conventions = 'CF-1.6, NCAS-AMF-1.1'
 dataset_out.source = 'MAQS-sonic-1'
 dataset_out.instrument_manufacturer = 'Gill'
 dataset_out.instrument_model = 'Windmaster'
