@@ -12,12 +12,12 @@ direct = 'C:/Users/mbexknm5/Dropbox/Python_Scripts/'
 
 dataset_out = nc.Dataset(direct + 'sonic_MAQS_201909_mean_winds.nc', 'w', format='NETCDF4_CLASSIC')
 
-dataset_out.Conventions = 'CF-1.6, NCAS-AMF-1.1'
+dataset_out.Conventions = 'CF-1.6, NCAS-AMF-1.0'
 dataset_out.source = 'MAQS-sonic-1'
 dataset_out.instrument_manufacturer = 'Gill'
 dataset_out.instrument_model = 'Windmaster'
-dataset_out.serial_number = '180602'
-dataset_out.operational_software = 'Labview'
+dataset_out.instrument_serial_number = '180602'
+dataset_out.instrument_software = 'Labview'
 #dataset_out.operational_software_version = getattr(dataset_in, 'software_version')
 dataset_out.creator_name = 'Dr Nicholas Marsden'
 dataset_out.creator_email = 'nicholas.marsden@manchester.ac.uk'
